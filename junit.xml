@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="15" errors="0" time="2.86">
+  <testsuite name="User Management" errors="0" failures="15" skipped="0" timestamp="2023-06-21T13:24:10" time="2.119" tests="15">
+    <testcase classname="User Management App Initialization should initially show empty table list" name="User Management App Initialization should initially show empty table list" time="0.067">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: 1
+    at checkTableListValues (/projects/challenge/src/App.test.js:63:86)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:77:13)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management App Initialization should initially not show validation alert" name="User Management App Initialization should initially not show validation alert" time="0.02">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:81:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Cancel Button should do nothing when user clicks cancel button with no data in the form" name="User Management Cancel Button should do nothing when user clicks cancel button with no data in the form" time="0.027">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:90:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Cancel Button should clear all entered values when user clicks cancel button" name="User Management Cancel Button should clear all entered values when user clicks cancel button" time="0.041">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;&quot;
+Received: &quot;someFirstName&quot;
+    at checkFormValues (/projects/challenge/src/App.test.js:57:38)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:100:13)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Cancel Button should clear validation alert when user clicks cancel button" name="User Management Cancel Button should clear validation alert when user clicks cancel button" time="0.017">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:110:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Validation should not add the user record to the list if any input fields is empty and should show an alert on screen" name="User Management Validation should not add the user record to the list if any input fields is empty and should show an alert on screen" time="0.01">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:119:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Validation should not add the user record to the list if phone number is not 10 digits and should show an alert on screen" name="User Management Validation should not add the user record to the list if phone number is not 10 digits and should show an alert on screen" time="0.013">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:135:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Validation should not add the user record to the list if phone number is 10 digits but starts with zero(0) and should show an alert on screen" name="User Management Validation should not add the user record to the list if phone number is 10 digits but starts with zero(0) and should show an alert on screen" time="0.011">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:143:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Add/Edit Button should show validation error when user clicks Add/Edit button with no data in the form" name="User Management Add/Edit Button should show validation error when user clicks Add/Edit button with no data in the form" time="0.012">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:154:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management Add/Edit Button should not show validation alert when correct values are supplied with click of Add/Edit button" name="User Management Add/Edit Button should not show validation alert when correct values are supplied with click of Add/Edit button" time="0.018">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:162:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management User List with Actions should check that after a user record is added all the fields are displayed along with the actions" name="User Management User List with Actions should check that after a user record is added all the fields are displayed along with the actions" time="0.012">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:172:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management User List with Actions should delete the user from the list when delete button is clicked on the user row" name="User Management User List with Actions should delete the user from the list when delete button is clicked on the user row" time="0.012">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:180:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management User List with Actions should populate the user details in the form for edit when edit button is clicked on the row" name="User Management User List with Actions should populate the user details in the form for edit when edit button is clicked on the row" time="0.016">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:190:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management User List with Actions should add back the details of the user without any change if cancel button is clicked after edit button" name="User Management User List with Actions should add back the details of the user without any change if cancel button is clicked after edit button" time="0.013">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:201:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="User Management User List with Actions should update the user in the list with new values when Add/User is clicked" name="User Management User List with Actions should update the user in the list with new values when Add/User is clicked" time="0.018">
+      <failure>Error: expect(received).toBeNull()
+
+Received: &lt;div class=&quot;alert error mb-30&quot; data-testid=&quot;validationAlert&quot;&gt;Error: All fields are mandatory. And phone number to be of 10 digits.&lt;/div&gt;
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:216:67)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:60:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:475:34)
+    at TestRunner.runTests (/projects/challenge/node_modules/jest-runner/build/index.js:101:12)
+    at TestScheduler.scheduleTests (/projects/challenge/node_modules/@jest/core/build/TestScheduler.js:333:13)
+    at runJest (/projects/challenge/node_modules/@jest/core/build/runJest.js:404:19)
+    at _run10000 (/projects/challenge/node_modules/@jest/core/build/cli/index.js:320:7)
+    at runCLI (/projects/challenge/node_modules/@jest/core/build/cli/index.js:173:3)
+    at Object.run (/projects/challenge/node_modules/jest-cli/build/cli/index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
